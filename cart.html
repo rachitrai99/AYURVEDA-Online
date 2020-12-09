@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index1</title>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+
+
+    </script>
+
+  <script src="https://kit.fontawesome.com/fb65f5d132.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="css/cart.css">
+
+  <link rel="stylesheet" href="css/header.css">
+
+  <link rel="stylesheet" href="css/navbar.css">
+
+  <link rel="stylesheet" href="css/up_and_down.css">
+
+  <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+  <div>
+    <div id="header"></div>
+    <!--Remaining section-->
+
+
+
+
+    <!-- Shop items -->
+    <!-- <div class="all-page-title">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>SPECIAL MENUE</h1>
+        </div>
+      </div>
+    </div>
+    <br> -->
+
+    <div class="all-page-title" style="margin-bottom: 15px;">
+      <div class="row">
+          <div class="col-lg-11">
+              <h1>PRODUCTS</h1>
+          </div>
+      </div>
+  </div>
+
+
+
+
+    <!-- PATENT SYRUP -->
+
+    <h1 class="subMenuName" id="patentSyrup">PATENT SYRUP<i title="PATENT SYRUP" style="padding-left: 10px;padding-top: 5px"></i> <a
+        href="#goToCart"><i class="fas fa-shopping-cart"
+          style="position: absolute;right: 20px;font-size: 40px;color: black;bottom: 15px;"></i></a></h1>
+    <hr>
+
+    <div class="subMenu">
+
+      <div class="dish" id="gasripuSyrup">
+
+        <div class="dishImage" id="" style="background-image: url(./images/gasripu.jpg);"> </div>
+
+        <div class="vegNonveg" id="VegNonveg"><img
+            src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png" alt="">
+
+        </div>
+
+        <div class="dishDescription" id="">
+
+          <h2 style="margin: 0px;">GASRIPU SYRUP</h2>
+
+          <P>This syrup is used for digestion of our food.<br>Qty:100ml<br><b>Price: </b><b>75</b> </P>
+
+        </div>
+
+        <div class="addToCartDiv">
+
+          <div class="counter">
+
+            <button id="dec" onclick="dec(event)" value="gasripuSyrup" name="75">-</button>
+
+            <div id="gasripuSyrupCounterValue" class="counterValue">0</div>
+
+            <button id="inc" onclick="inc(event)" value="gasripuSyrup" name="75">+</button>
+
+          </div>
+
+          <button class="addToCart" value="gasripuSyrup" onclick="addToCart(event)">Add to cart</button>
+
+        </div>
+
+        <div class="amount" id="gasripuSyrupAmount">
+
+          Amount: Rs 0
+
+        </div>
+
+      </div>
+
+
+
+
+      <div class="dish" id="livSyrup">
+
+        <div class="dishImage" id="" style="background-image: url(./images/liv\ syrup.jpg);"></div>
+
+        <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png"
+            alt="">
+
+        </div>
+
+        <div class="dishDescription" id="">
+
+          <h2 style="margin: 0px;">LIV SYRUP</h2>
+
+          <P>This syrup is used for liver and swelling. <br>Qty:100ml<br><b>Price: </b><b>70</b> </P>
+
+        </div>
+
+        <div class="addToCartDiv">
+
+          <div class="counter">
+
+            <button id="dec" onclick="dec(event)" value="livSyrup" name="70">-</button>
+
+            <div id="livSyrupCounterValue" class="counterValue">0</div>
+
+            <button id="inc" onclick="inc(event)" value="livSyrup" name="70">+</button>
+
+          </div>
+
+          <button class="addToCart" value="livSyrup" onclick="addToCart(event)">Add to cart</button>
+
+        </div>
+
+        <div class="amount" id="livSyrupAmount">
+
+          Amount: Rs 0
+
+        </div>
+
+      </div>
+
+
+
+      <div class="dish" id="jukamripuSyrup">
+
+        <div class="dishImage" id="" style="background-image: url(./images/JUKAMRIPU\ SYRUP.jpg);"> </div>
+
+        <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png"
+            alt="">
+
+        </div>
+
+        <div class="dishDescription" id="">
+
+          <h2 style="margin: 0px;">JUKAMRIPU SYRUP</h2>
+
+          <P>This syrup is used for cough and cold<br>Qty:100ml<br><b>Price: </b><b>75</b> </P>
+
+        </div>
+
+        <div class="addToCartDiv">
+
+          <div class="counter">
+
+            <button id="dec" onclick="dec(event)" value="jukamripuSyrup" name="75">-</button>
+
+            <div id="jukamripuSyrupCounterValue" class="counterValue">0</div>
+
+            <button id="inc" onclick="inc(event)" value="jukamripuSyrup" name="75">+</button>
+
+          </div>
+
+          <button class="addToCart" value="jukamripuSyrup" onclick="addToCart(event)">Add to cart</button>
+
+        </div>
+
+        <div class="amount" id="jukamripuSyrupAmount">
+
+          Amount: Rs 0
+
+        </div>
+
+      </div>
+
+
+
+      <div class="dish" id="vatAsthaminSyrup">
+
+        <div class="dishImage" id="" style="background-image: url(./images/VAT\ ASTHAMIN\ SYRUP.jpg);"></div>
+
+        <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png"
+            alt="">
+
+        </div>
+
+        <div class="dishDescription" id="">
+
+          <h2 style="margin: 0px;">VAT ASTHAMIN SYRUP</h2>
+
+          <P>This syrup is used for joint pains<br>Qty:200ml<br><b>Price: </b><b>130</b> </P>
+
+        </div>
+
+        <div class="addToCartDiv">
+
+          <div class="counter">
+
+            <button id="dec" onclick="dec(event)" value="vatAsthaminSyrup" name="130">-</button>
+
+            <div id="vatAsthaminSyrupCounterValue" class="counterValue">0</div>
+
+            <button id="inc" onclick="inc(event)" value="vatAsthaminSyrup" name="130">+</button>
+
+          </div>
+
+          <button class="addToCart" value="vatAsthaminSyrup" onclick="addToCart(event)">Add to cart</button>
+
+        </div>
+
+        <div class="amount" id="vatAsthaminSyrupAmount">
+
+          Amount: Rs 0
+
+        </div>
+
+      </div>
+
+
+
+      <div class="dish" id="barbyDrops">
+
+        <div class="dishImage" id="" style="background-image: url(./images/BARBY\ DROPS.jpg);"> </div>
+
+        <div class="vegNonveg" id="V"><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png"
+            alt="">
+
+        </div>
+
+        <div class="dishDescription" id="">
+
+          <h2 style="margin: 0px;">BARBY DROPS</h2>
+
+          <P>This syrup is used for childrens growth<br>Qty:30ml<br><b>Price: </b><b>40</b> </P>
+
+        </div>
+
+        <div class="addToCartDiv">
+
+          <div class="counter">
+
+            <button id="dec" onclick="dec(event)" value="barbyDrops" name="40">-</button>
+
+            <div id="barbyDropsCounterValue" class="counterValue">0</div>
+
+            <button id="inc" onclick="inc(event)" value="barbyDrops" name="40">+</button>
+
+          </div>
+
+          <button class="addToCart" value="barbyDrops" onclick="addToCart(event)">Add to cart</button>
+
+        </div>
+
+        <div class="amount" id="barbyDropsAmount">
+
+          Amount: Rs 0
+
+        </div>
+
+      </div>
+
+      <div class="dish" id="antiDyroSyrup">
+
+        <div class="dishImage" id="" style="background-image: url(./images/ANTI\ DYRO\ SYRUP.jpg);"></div>
+
+        <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png"
+            alt="">
+
+        </div>
+
+        <div class="dishDescription" id="">
+
+          <h2 style="margin: 0px;">ANTI DYRO SYRUP</h2>
+
+          <P>This syrup is used for lose motion and diarrhea<br>Qty:50ml <br><b>Price: </b><b>50</b> </P>
+
+        </div>
+
+        <div class="addToCartDiv">
+
+          <div class="counter">
+
+            <button id="dec" onclick="dec(event)" value="antiDyroSyrup" name="50">-</button>
+
+            <div id="antiDyroSyrupCounterValue" class="counterValue">0</div>
+
+            <button id="inc" onclick="inc(event)" value="antiDyroSyrup" name="50">+</button>
+
+          </div>
+
+          <button class="addToCart" value="antiDyroSyrup" onclick="addToCart(event)">Add to cart</button>
+
+        </div>
+
+        <div class="amount" id="antiDyroSyrupAmount">
+
+          Amount: Rs 0
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!--AASAV ARISTH-->
+        
+    <h1 class="subMenuName" id="aasavAristh">AASAV ARISTH<i title="AASAV ARISTH"
+      style="padding-left: 10px;padding-top: 5px"></i> <a href="#goToCart"><i class="fas fa-shopping-cart"
+        style="position: absolute;right: 20px;font-size: 40px;color: black;bottom: 15px;"></i></a></h1>
+
+  <hr>
+
+  <div class="subMenu">
+
+
+    <div class="dish" id="panchkalpasav">
+
+      <div class="dishImage" id="" style="background-image: url(./images/panchkalpasav.jpg);"></div>
+
+      <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png" alt="">
+
+      </div>
+
+      <div class="dishDescription" id="">
+
+        <h2 style="margin: 0px;">PANCHKALPASAV</h2>
+
+        <P>This aasav is used for digestion<br>Qty:450ml<br><b>Price: </b><b>140</b> </P>
+
+      </div>
+
+      <div class="addToCartDiv">
+
+        <div class="counter">
+
+          <button id="dec" onclick="dec(event)" value="panchkalpasav" name="140">-</button>
+
+          <div id="panchkalpasavCounterValue" class="counterValue">0</div>
+
+          <button id="inc" onclick="inc(event)" value="panchkalpasav" name="140">+</button>
+
+        </div>
+
+        <button class="addToCart" value="panchkalpasav" onclick="addToCart(event)">Add to cart</button>
+
+      </div>
+
+      <div class="amount" id="panchkalpasavAmount">
+
+        Amount: Rs 0
+
+      </div>
+
+    </div>
+
+
+    <div class="dish" id="swetPradrasav">
+
+      <div class="dishImage" id="" style="background-image: url(./images/swet\ pradrasav.jpg);"></div>
+
+      <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png" alt="">
+
+      </div>
+
+      <div class="dishDescription" id="">
+
+        <h2 style="margin: 0px;">SWET PRADRASAV</h2>
+
+        <P>This aasav is used for liquaria<br>Qty:450ml<br><b>Price: </b><b>140</b> </P>
+
+      </div>
+
+      <div class="addToCartDiv">
+
+        <div class="counter">
+
+          <button id="dec" onclick="dec(event)" value="swetPradrasav" name="140">-</button>
+
+          <div id="swetPradrasavCounterValue" class="counterValue">0</div>
+
+          <button id="inc" onclick="inc(event)" value="swetPradrasav" name="140">+</button>
+
+        </div>
+
+        <button class="addToCart" value="swetPradrasav" onclick="addToCart(event)">Add to cart</button>
+
+      </div>
+
+      <div class="amount" id="swetPradrasavAmount">
+
+        Amount: Rs 0
+
+      </div>
+
+    </div>
+
+
+    <div class="dish" id="swasKalpasav">
+
+      <div class="dishImage" id="" style="background-image: url(./images/swaskalpasav.jpg);"></div>
+
+      <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png" alt="">
+
+      </div>
+
+      <div class="dishDescription" id="">
+
+        <h2 style="margin: 0px;">SWAS KALPASAV</h2>
+
+        <P>This aasav is used for breathing problems<br>Qty:450ml<br><b>Price: </b><b>140</b> </P>
+
+      </div>
+
+      <div class="addToCartDiv">
+
+        <div class="counter">
+
+          <button id="dec" onclick="dec(event)" value="swasKalpasav" name="140">-</button>
+
+          <div id="swasKalpasavCounterValue" class="counterValue">0</div>
+
+          <button id="inc" onclick="inc(event)" value="swasKalpasav" name="140">+</button>
+
+        </div>
+
+        <button class="addToCart" value="swasKalpasav" onclick="addToCart(event)">Add to cart</button>
+
+      </div>
+
+      <div class="amount" id="swasKalpasavAmount">
+
+        Amount: Rs 0
+
+      </div>
+
+    </div>
+
+    <div class="dish" id="charmRogadiAsav">
+
+      <div class="dishImage" id="" style="background-image: url(./images/charmrogadi\ asav.jpg);"></div>
+
+      <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png" alt="">
+
+      </div>
+
+      <div class="dishDescription" id="">
+
+        <h2 style="margin: 0px;">CHARM ROGADI ASAV</h2>
+
+        <P>This aasav is used for skin problems<br>Qty:450ml<br><b>Price: </b><b>140</b> </P>
+
+      </div>
+
+      <div class="addToCartDiv">
+
+        <div class="counter">
+
+          <button id="dec" onclick="dec(event)" value="charmRogadiAsav" name="140">-</button>
+
+          <div id="charmRogadiAsavCounterValue" class="counterValue">0</div>
+
+          <button id="inc" onclick="inc(event)" value="charmRogadiAsav" name="140">+</button>
+
+        </div>
+
+        <button class="addToCart" value="charmRogadiAsav" onclick="addToCart(event)">Add to cart</button>
+
+      </div>
+
+      <div class="amount" id="charmRogadiAsavAmount">
+
+        Amount: Rs 0
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+    <!--CAPSULE-->
+        
+    <h1 class="subMenuName" id="capsule">CAPSULE<i title="capsule"
+      style="padding-left: 10px;padding-top: 5px"></i> <a href="#goToCart"><i class="fas fa-shopping-cart"
+        style="position: absolute;right: 20px;font-size: 40px;color: black;bottom: 15px;"></i></a></h1>
+
+  <hr>
+
+  <div class="subMenu">
+
+    
+    <div class="dish" id="acidLockCapsule">
+
+      <div class="dishImage" id="" style="background-image: url(./images/acid\ lock\ capsule.jpg);"></div>
+
+      <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png" alt="">
+
+      </div>
+
+      <div class="dishDescription" id="">
+
+        <h2 style="margin: 0px;">ACID LOCK CAPSULE</h2>
+
+        <P>This capsule is used for acidity<br>Qty:60 Cap.<br><b>Price: </b><b>175</b> </P>
+
+      </div>
+
+      <div class="addToCartDiv">
+
+        <div class="counter">
+
+          <button id="dec" onclick="dec(event)" value="acidLockCapsule" name="175">-</button>
+
+          <div id="acidLockCapsuleCounterValue" class="counterValue">0</div>
+
+          <button id="inc" onclick="inc(event)" value="acidLockCapsule" name="175">+</button>
+
+        </div>
+
+        <button class="addToCart" value="acidLockCapsule" onclick="addToCart(event)">Add to cart</button>
+
+      </div>
+
+      <div class="amount" id="acidLockCapsuleAmount">
+
+        Amount: Rs 0
+
+      </div>
+
+    </div>
+
+
+    <div class="dish" id="gasCleanCapsule">
+
+      <div class="dishImage" id="" style="background-image: url(./images/gas\ clean\ capsule.jpg);"></div>
+
+      <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png" alt="">
+
+      </div>
+
+      <div class="dishDescription" id="">
+
+        <h2 style="margin: 0px;">GAS CLEAN CAPSULE</h2>
+
+        <P>This capsule is used for gas related problems<br>Qty:60 Cap.<br><b>Price: </b><b>175</b> </P>
+
+      </div>
+
+      <div class="addToCartDiv">
+
+        <div class="counter">
+
+          <button id="dec" onclick="dec(event)" value="gasCleanCapsule" name="175">-</button>
+
+          <div id="gasCleanCapsuleCounterValue" class="counterValue">0</div>
+
+          <button id="inc" onclick="inc(event)" value="gasCleanCapsule" name="175">+</button>
+
+        </div>
+
+        <button class="addToCart" value="gasCleanCapsule" onclick="addToCart(event)">Add to cart</button>
+
+      </div>
+
+      <div class="amount" id="gasCleanCapsuleAmount">
+
+        Amount: Rs 0
+
+      </div>
+
+    </div>
+
+
+    <div class="dish" id="charmCleanCapsule">
+
+      <div class="dishImage" id="" style="background-image: url(./images/charm\ clean\ capsule.jpg);"></div>
+
+      <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png" alt="">
+
+      </div>
+
+      <div class="dishDescription" id="">
+
+        <h2 style="margin: 0px;">CHARM CLEAN CAPSULE</h2>
+
+        <P>This capsule is used for skin problems<br>Qty:60 Cap.<br><b>Price: </b><b>175</b> </P>
+
+      </div>
+
+      <div class="addToCartDiv">
+
+        <div class="counter">
+
+          <button id="dec" onclick="dec(event)" value="gasCleanCapsule" name="175">-</button>
+
+          <div id="gasCleanCapsuleCounterValue" class="counterValue">0</div>
+
+          <button id="inc" onclick="inc(event)" value="gasCleanCapsule" name="175">+</button>
+
+        </div>
+
+        <button class="addToCart" value="gasCleanCapsule" onclick="addToCart(event)">Add to cart</button>
+
+      </div>
+
+      <div class="amount" id="gasCleanCapsuleAmount">
+
+        Amount: Rs 0
+
+      </div>
+
+    </div>
+
+
+    <div class="dish" id="fatlessCapsule">
+
+      <div class="dishImage" id="" style="background-image: url(./images/fatless\ capsule.jpg);"></div>
+
+      <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png" alt="">
+
+      </div>
+
+      <div class="dishDescription" id="">
+
+        <h2 style="margin: 0px;">FATLESS CAPSULE</h2>
+
+        <P>This capsule is used for weight loss<br>Qty:60 Cap.<br><b>Price: </b><b>200</b> </P>
+
+      </div>
+
+      <div class="addToCartDiv">
+
+        <div class="counter">
+
+          <button id="dec" onclick="dec(event)" value="fatlessCapsule" name="200">-</button>
+
+          <div id="fatlessCapsuleCounterValue" class="counterValue">0</div>
+
+          <button id="inc" onclick="inc(event)" value="fatlessCapsule" name="200">+</button>
+
+        </div>
+
+        <button class="addToCart" value="fatlessCapsule" onclick="addToCart(event)">Add to cart</button>
+
+      </div>
+
+      <div class="amount" id="fatlessCapsuleAmount">
+
+        Amount: Rs 0
+
+      </div>
+
+    </div>
+
+
+    <div class="dish" id="madhurolCapsule">
+
+      <div class="dishImage" id="" style="background-image: url(./images/madhurol\ capsule.jpg);"></div>
+
+      <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png" alt="">
+
+      </div>
+
+      <div class="dishDescription" id="">
+
+        <h2 style="margin: 0px;">MADHUROL CAPSULE</h2>
+
+        <P>This capsule is used for diabetes<br>Qty:60 Cap.<br><b>Price: </b><b>200</b> </P>
+
+      </div>
+
+      <div class="addToCartDiv">
+
+        <div class="counter">
+
+          <button id="dec" onclick="dec(event)" value="madhurolCapsule" name="200">-</button>
+
+          <div id="madhurolCapsuleCounterValue" class="counterValue">0</div>
+
+          <button id="inc" onclick="inc(event)" value="madhurolCapsule" name="200">+</button>
+
+        </div>
+
+        <button class="addToCart" value="madhurolCapsule" onclick="addToCart(event)">Add to cart</button>
+
+      </div>
+
+      <div class="amount" id="madhurolCapsuleAmount">
+
+        Amount: Rs 0
+
+      </div>
+
+    </div>
+
+
+    <div class="dish" id="livCapsule">
+
+      <div class="dishImage" id="" style="background-image: url(./images/liv\ capsule.jpg);"></div>
+
+      <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png" alt="">
+
+      </div>
+
+      <div class="dishDescription" id="">
+
+        <h2 style="margin: 0px;">LIV CAPSULE</h2>
+
+        <P>This capsule is used for liver problems<br>Qty:60 Cap.<br><b>Price: </b><b>185</b> </P>
+
+      </div>
+
+      <div class="addToCartDiv">
+
+        <div class="counter">
+
+          <button id="dec" onclick="dec(event)" value="livCapsule" name="185">-</button>
+
+          <div id="livCapsuleCounterValue" class="counterValue">0</div>
+
+          <button id="inc" onclick="inc(event)" value="livCapsule" name="185">+</button>
+
+        </div>
+
+        <button class="addToCart" value="livCapsule" onclick="addToCart(event)">Add to cart</button>
+
+      </div>
+
+      <div class="amount" id="livCapsuleAmount">
+
+        Amount: Rs 0
+
+      </div>
+
+    </div>
+
+
+    <div class="dish" id="vatkilCapsule">
+
+      <div class="dishImage" id="" style="background-image: url(./images/vatkil\ capsule.jpg);"></div>
+
+      <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png" alt="">
+
+      </div>
+
+      <div class="dishDescription" id="">
+
+        <h2 style="margin: 0px;">VATKIL CAPSULE</h2>
+
+        <P>This capsule is used for joint pains<br>Qty:60 Cap.<br><b>Price: </b><b>185</b> </P>
+
+      </div>
+
+      <div class="addToCartDiv">
+
+        <div class="counter">
+
+          <button id="dec" onclick="dec(event)" value="vatkilCapsule" name="185">-</button>
+
+          <div id="vatkilCapsuleCounterValue" class="counterValue">0</div>
+
+          <button id="inc" onclick="inc(event)" value="vatkilCapsule" name="185">+</button>
+
+        </div>
+
+        <button class="addToCart" value="vatkilCapsule" onclick="addToCart(event)">Add to cart</button>
+
+      </div>
+
+      <div class="amount" id="vatkilCapsuleAmount">
+
+        Amount: Rs 0
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- PATENT RAS -->
+
+  <h1 class="subMenuName" id="patentRas">PATENT RAS<i title="PATENT RAS" style="padding-left: 10px;padding-top: 5px"></i> <a
+    href="#goToCart"><i class="fas fa-shopping-cart"
+      style="position: absolute;right: 20px;font-size: 40px;color: black;bottom: 15px;"></i></a></h1>
+<hr>
+
+<div class="subMenu">
+
+  <div class="dish" id="shyamaTulsiRas">
+
+    <div class="dishImage" id="" style="background-image: url(./images/shyama\ tulsi\ ras.jpg);"> </div>
+
+    <div class="vegNonveg" id="VegNonveg"><img
+        src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png" alt="">
+
+    </div>
+
+    <div class="dishDescription" id="">
+
+      <h2 style="margin: 0px;">SHYAMA TULSI RAS</h2>
+
+      <P>It is used as a immunity booster<br>Qty:25ml<br><b>Price: </b><b>190</b> </P>
+
+    </div>
+
+    <div class="addToCartDiv">
+
+      <div class="counter">
+
+        <button id="dec" onclick="dec(event)" value="shyamaTulsiRas" name="190">-</button>
+
+        <div id="shyamaTulsiRasCounterValue" class="counterValue">0</div>
+
+        <button id="inc" onclick="inc(event)" value="shyamaTulsiRas" name="190">+</button>
+
+      </div>
+
+      <button class="addToCart" value="shyamaTulsiRas" onclick="addToCart(event)">Add to cart</button>
+
+    </div>
+
+    <div class="amount" id="shyamaTulsiRasAmount">
+
+      Amount: Rs 0
+
+    </div>
+
+  </div>
+
+
+
+
+  <div class="dish" id="karelaJamunSwaras">
+
+    <div class="dishImage" id="" style="background-image: url(./images/karela\ jamun\ swaras.jpg);"></div>
+
+    <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png"
+        alt="">
+
+    </div>
+
+    <div class="dishDescription" id="">
+
+      <h2 style="margin: 0px;">KARELA JAMUN SWARAS</h2>
+
+      <P>It is very useful for diabitic patients<br>Qty:500ml<br><b>Price: </b><b>160</b> </P>
+
+    </div>
+
+    <div class="addToCartDiv">
+
+      <div class="counter">
+
+        <button id="dec" onclick="dec(event)" value="karelaJamunSwaras" name="160">-</button>
+
+        <div id="karelaJamunSwarasCounterValue" class="counterValue">0</div>
+
+        <button id="inc" onclick="inc(event)" value="karelaJamunSwaras" name="160">+</button>
+
+      </div>
+
+      <button class="addToCart" value="karelaJamunSwaras" onclick="addToCart(event)">Add to cart</button>
+
+    </div>
+
+    <div class="amount" id="karelaJamunSwarasAmount">
+
+      Amount: Rs 0
+
+    </div>
+
+  </div>
+
+
+
+  <div class="dish" id="amalaEloveraSwaras">
+
+    <div class="dishImage" id="" style="background-image: url(./images/amala\ elovera\ swaras.jpg);"> </div>
+
+    <div class="vegNonveg" id=""><img src="/images/dice-square-with-a-dot-or-button-with-a-circle-inside.png"
+        alt="">
+
+    </div>
+
+    <div class="dishDescription" id="">
+
+      <h2 style="margin: 0px;">AMALA ELOVERA SWARAS</h2>
+
+      <P>It is very useful for  your liver<br>Qty:500ml<br><b>Price: </b><b>160</b> </P>
+
+    </div>
+
+    <div class="addToCartDiv">
+
+      <div class="counter">
+
+        <button id="dec" onclick="dec(event)" value="amalaEloveraSwaras" name="160">-</button>
+
+        <div id="amalaEloveraSwarasCounterValue" class="counterValue">0</div>
+
+        <button id="inc" onclick="inc(event)" value="amalaEloveraSwaras" name="160">+</button>
+
+      </div>
+
+      <button class="addToCart" value="amalaEloveraSwaras" onclick="addToCart(event)">Add to cart</button>
+
+    </div>
+
+    <div class="amount" id="amalaEloveraSwarasAmount">
+
+      Amount: Rs 0
+
+    </div>
+
+  </div>
+
+</div>>
+
+
+
+
+
+    <!-- cart -->
+
+    <h1 class="subMenuName" id="goToCart">CART<i class="fas fa-shopping-cart"
+        style="padding-left: 10px;padding-top: 5px"></i></h1>
+
+    <hr>
+
+    <p id="emptyCart" style="margin: 0px auto;text-align: center; padding-top: 45px;"><b style="font-size: 50px;"> The
+        Cart is Empty. GO SHOP!!!!</b></p>
+
+
+    <div class="subMenu" id="cart1">
+
+      <br><br>
+
+    </div>
+
+    <p class="totalAmount" id="totalAmount"></p>
+
+    <button id="checkOut" onclick="checkOut()">Checkout</button>
+
+
+
+
+
+
+
+    <!-- FOOTER SECTION:  -->
+    <footer>
+      <div class="upper" id="contact">
+        <div class="row" style="margin-right: 0px;">
+          <div class="col-md-4">
+            <i class="fa fa-volume-control-phone"></i>
+            <div class="overflow-hidden">
+              <h4>Phone</h4>
+              <p class="lead">
+                +91 9454904604
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-envelope"></i>
+            <div class="overflow-hidden">
+              <h4>Email</h4>
+              <p class="lead">
+                foodvilla@gmail.com
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-map-marker"></i>
+            <div class="overflow-hidden">
+              <h4>Location</h4>
+              <p class="lead">
+                462 A B Nair Road, Mumbai 400049
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lower">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <h3>About Us</h3>
+            <p>Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna.
+              Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui, at ornare turpis ultrices sit amet. Nulla
+              cursus lorem ut nisi porta, ac eleifend arcu ultrices.</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3>Opening hours</h3>
+            <p><span class="text-color">Mon-Tue : </span>9:00 AM - 11:00 PM</p>
+            <p><span class="text-color">Wed-Thu :</span> 9:00 AM - 11:00 PM</p>
+            <p><span class="text-color">Fri-Sat :</span> 9:00 AM - 11:00 PM</p>
+            <p><span class="text-color"> Sunday :</span> 11:00 AM - 11:00 PM</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3>Contact information</h3>
+            <p class="lead">462 A B Nair Road Opposite Novotel, Mumbai 400049 India</p>
+            <p class="lead"><a href="#">+91 9454904604</a></p>
+            <p><a href="#"> foodvilla@gmail.com</a></p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3>Subscribe</h3>
+            <div class="subscribe_form">
+              <form class="subscribe_form">
+                <input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
+                <button type="submit" class="submit1" style="
+
+                    padding: 0 10px;
+                    margin: 0px;
+                    /* float: left; */
+                    width: 300px;
+                    height:70px;
+                  
+                    width: 100%;
+                    
+                ">SUBSCRIBE</button>
+                <div class="clearfix"></div>
+              </form>
+            </div>
+            <ul class="list-inline f-social">
+              <li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="company-name">All Rights Reserved. &copy; 2020 <a href="#">Food Villa Restaurant</a> <br>
+                Design By : Kshitij Gupta and Rachit Rai
+                <br>
+                <a href="https://github.com/rachitrai99/Online-Restaurant">Github</a>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <script>
+
+      //counter
+
+
+
+      var arrayOfCounter = [];
+
+
+      function dec(e) {
+
+        var itemId = e.target.value;
+
+        var j = 0;
+
+        for (var i = 0; i < arrayOfCounter.length; i++) {
+
+
+          if (arrayOfCounter[i][0] == itemId) {
+
+            j = 1;
+
+            break;
+
+          }
+
+        }
+
+        if (j == 1) {
+
+          var counter = parseInt(document.getElementById(itemId + "CounterValue").innerHTML);
+
+          counter = counter - 1;
+
+          var amount = (counter * parseInt(e.target.name));
+
+
+
+
+
+
+          if (counter == 0) {
+
+
+            arrayOfCounter.splice(i, 1);
+
+
+
+
+
+          } else {
+
+            arrayOfCounter[i] = [itemId, counter, amount];
+
+            console.table(arrayOfCounter);
+
+
+          }
+          document.getElementById(itemId + "CounterValue").innerHTML = counter;
+
+          document.getElementById(itemId + "Amount").innerHTML = "Amount: Rs " + (counter * parseInt(e.target.name));
+
+          if (hold.length != 0) {
+
+            document.getElementById(itemId + "CounterValueCart").innerHTML = counter;
+
+            document.getElementById(itemId + "AmountCart").innerHTML = "Amount: Rs " + (counter * parseInt(e.target.name));
+
+            var totalAmount = 0;
+
+            for (i = 0; i < arrayOfCounter.length; i++) {
+
+              totalAmount = totalAmount + parseInt(arrayOfCounter[i][2]);
+
+            }
+
+            document.getElementById("totalAmount").innerHTML = "Total Amount: " + totalAmount;
+
+
+
+          }
+
+        }
+      }
+      function inc(e) {
+
+        e.preventDefault();
+
+        var itemId = e.target.value;
+
+        let j = 0;
+
+        for (var i = 0; i < arrayOfCounter.length; i++) {
+
+
+          if (arrayOfCounter[i][0] == itemId) {
+
+            j = 1;
+
+            break;
+
+          }
+
+        }
+
+        counterName = itemId + "CounterValue";
+
+        var counter = parseInt(document.getElementById(itemId + "CounterValue").innerHTML);
+
+        counter = counter + 1;
+
+        if (counter < 10) {
+
+          var amount = (counter * parseInt(e.target.name));
+
+
+
+          arrayOfCounter[i] = [itemId, counter, amount];
+
+          console.table(arrayOfCounter);
+
+          //console.table(arrayOfCounter);
+
+          document.getElementById(itemId + "CounterValue").innerHTML = arrayOfCounter[i][1];
+
+          document.getElementById(itemId + "Amount").innerHTML = "Amount: Rs " + (counter * parseInt(e.target.name));
+
+          if (hold.length != 0) {
+
+            document.getElementById(itemId + "CounterValueCart").innerHTML = arrayOfCounter[i][1];
+
+            document.getElementById(itemId + "AmountCart").innerHTML = "Amount: Rs " + (counter * parseInt(e.target.name));
+
+            var totalAmount = 0;
+
+            for (i = 0; i < arrayOfCounter.length; i++) {
+
+              totalAmount = totalAmount + parseInt(arrayOfCounter[i][2]);
+
+            }
+
+            document.getElementById("totalAmount").innerHTML = "Total Amount: " + totalAmount;
+
+          }
+
+
+        } else {
+
+          alert("Maximum limit for an item is 9. If you still nedd more ,call the restaurant.Thank you.")
+        }
+
+
+      }
+
+      //addToCart
+      var hold = [];
+
+      function addToCart(e) {
+
+
+
+        var itemId = e.target.value;
+
+        var itemIdCart = e.target.value + "Cart";
+
+        let counter = parseInt(document.getElementById(e.target.value + "CounterValue").innerHTML);
+
+        if ((hold.length == 0) && (counter != 0)) {
+
+          let el = document.getElementById("emptyCart");
+
+
+          el.innerHTML = "";
+
+          document.getElementById("checkOut").style.display = "flex";
+
+          var totalAmount = 0;
+
+          for (i = 0; i < arrayOfCounter.length; i++) {
+
+            totalAmount = totalAmount + (arrayOfCounter[i][2]);
+
+          }
+
+          document.getElementById("totalAmount").innerHTML = "Total Amount: " + totalAmount;
+
+
+
+        }
+        if (counter == 0) {
+
+
+          for (var i = 0; i < hold.length; i++) {
+
+            if (hold[i] == itemIdCart) {
+
+              break;
+
+            }
+
+          }
+
+          if (i == hold.length) {
+
+          }
+
+          else {
+
+
+            var el = document.getElementById(itemIdCart);
+
+
+            el.remove();
+
+            hold.splice(i, 1);
+
+            if (hold.length == 0) {
+
+              let el = document.getElementById("emptyCart");
+
+
+              el.innerHTML = '<b style="font-size: 50px;"> The Cart is Empty. GO SHOP!!!!</b>';
+
+              document.getElementById("checkOut").style.display = "none";
+
+              document.getElementById("totalAmount").innerHTML = "";
+
+
+            }
+
+          }
+
+        } else {
+
+          var addToCart = e.target.parentNode.parentNode;
+
+          let j = 0;
+
+          for (let i = 0; i < hold.length; i++) {
+
+            if (hold[i] == itemIdCart) {
+
+              j = 1;
+
+              break;
+            }
+
+
+          }
+
+          var totalAmount = 0;
+
+          for (i = 0; i < arrayOfCounter.length; i++) {
+
+            totalAmount = totalAmount + parseInt(arrayOfCounter[i][2]);
+
+          }
+
+          document.getElementById("totalAmount").innerHTML = "Total Amount: " + totalAmount;
+
+          var item = addToCart.cloneNode(true);
+
+
+
+          item.id = itemIdCart;
+
+          item.childNodes[7].childNodes[1].childNodes[3].id = e.target.value + "CounterValueCart";
+
+          item.childNodes[9].id = e.target.value + "AmountCart";
+
+          var drop = item.childNodes[7].childNodes[3];
+
+          drop.remove();
+
+          var iDiv = document.createElement('button');
+
+          iDiv.className = 'addToCart';
+
+          iDiv.id = e.target.value + "AddToCart";
+
+          iDiv.innerHTML = "Delete";
+
+          iDiv.value = itemIdCart;
+
+          iDiv.addEventListener("click", function (e) {
+
+            var el = document.getElementById(itemIdCart);
+
+            el.remove();
+
+            document.getElementById(itemId + "CounterValue").innerHTML = 0;
+
+            document.getElementById(itemId + "Amount").innerHTML = "Amount: Rs 0";
+
+            //console.log(hold);
+
+
+
+            for (i = 0; i < arrayOfCounter.length; i++) {
+
+
+              if (arrayOfCounter[i][0] == itemId) {
+
+                arrayOfCounter.splice(i, 1);
+
+                break;
+
+              }
+            }
+
+            var totalAmount = 0;
+
+            for (i = 0; i < arrayOfCounter.length; i++) {
+
+              totalAmount = totalAmount + parseInt(arrayOfCounter[i][2]);
+
+            }
+
+            document.getElementById("totalAmount").innerHTML = "Total Amount: " + totalAmount;
+
+            for (i = 0; i < hold.length; i++) {
+
+              if (hold[i] == e.target.value) {
+
+
+                hold.splice(i, 1);
+
+                if (hold.length == 0) {
+
+                  let check = document.getElementById("emptyCart");
+
+
+                  check.innerHTML = '<b style="font-size: 50px;"> The Cart is Empty. GO SHOP!!!!</b>';
+
+                  document.getElementById("checkOut").style.display = "none";
+
+                  document.getElementById("totalAmount").innerHTML = "";
+
+                }
+
+                break;
+
+              }
+
+            }
+
+            //console.table(arrayOfCounter);
+
+            //console.log(hold);
+
+
+          });
+
+          item.childNodes[7].appendChild(iDiv);
+
+
+
+
+          if (j == 1) {
+
+            document.getElementById(itemIdCart).replaceWith(item);
+
+          } else {
+
+            hold.push(itemIdCart);
+
+          }
+
+          document.getElementById("cart1").appendChild(item);
+
+
+        }
+
+      }
+
+      function checkOut() {
+
+        //sessionStorage.setItem('myArray', arrayOfCounter);
+
+        var totalAmount = 0;
+
+        for (i = 0; i < arrayOfCounter.length; i++) {
+
+          totalAmount = totalAmount + parseInt(arrayOfCounter[i][2]);
+
+        }
+
+        if (totalAmount == 0) {
+
+          alert("Please add some item. Thank you!");
+
+
+
+
+        } else {
+
+          window.sessionStorage.setItem("items", JSON.stringify(arrayOfCounter));
+
+
+          window.location.href = "checkOut.html";
+
+        }
+
+
+      }
+
+
+
+
+    </script>
+    <script>
+      $.get("header.html", function (data) {
+        $("#header").replaceWith(data);
+      });
+      $.get("footer.html", function (data) {
+        $("#footer").replaceWith(data);
+      });
+    </script>
+
+</body>
+
+</html>

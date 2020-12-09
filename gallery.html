@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index1</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+
+
+        </script>
+
+    <script src="https://kit.fontawesome.com/fb65f5d132.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/header.css">
+
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <link rel="stylesheet" href="css/up_and_down.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+
+<body>
+    <div style="position: relative;">
+        <div id="header"></div>
+
+        <!--Remaining section-->
+        <!-- ALL PAGE TITLE  -->
+        <div class="all-page-title">
+            <div class="row">
+                <div class="col-lg-11">
+                    <h1>GALLERY</h1>
+                </div>
+            </div>
+        </div>
+
+        <div  id="gallery">
+            <!-- GALLERY -->
+          </div>
+          <div class="gallery">
+            <a href="images/show 4.jpg" ></a><img src="images/show 4.jpg" alt="" /></a>
+            <a href="images/pd.jpg"><img src="images/pd.jpg" alt="" /></a>
+            <a href="images/pd1.png"><img src="images/pd1.png" alt="" /></a>
+            <a href="images/pd2.jpg"><img src="images/pd2.jpg" alt="" /></a>
+            <a href="images/pd3.jpg"><img src="images/pd3.jpg" alt="" /></a>
+            <a href="images/factory.JPG"><img src="images/factory.JPG" alt="" /></a>
+            <a href="images/pd5.JPG"><img src="images/pd5.JPG" alt="" /></a>
+            <a href="images/show 2.jpg"><img src="images/show 2.jpg" alt="" /></a>
+            <a href="images/show 3.jpg"><img src="images/show 3.jpg" alt="" /></a>
+            
+        
+          </div>
+
+        <div id="footer"></div>
+    </div>
+    <script>
+        $.get("header.html", function (data) {
+            $("#header").replaceWith(data);
+        });
+        $.get("footer.html", function (data) {
+            $("#footer").replaceWith(data);
+        });
+    </script>
+</body>
+
+</html>

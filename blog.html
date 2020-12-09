@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index1</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+
+
+        </script>
+
+    <script src="https://kit.fontawesome.com/fb65f5d132.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/header.css">
+
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <link rel="stylesheet" href="css/up_and_down.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <style>
+        #for-body {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            /* border: 2px solid; */
+            height: 830px;
+            background-color: darkgrey;
+            cursor: default;
+        }
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+        #popular-papers {
+            width: 70%;
+            float: left;
+            /* border: 2px solid red; */
+        }
+        #recent-papers {
+            margin-right: 5px;
+            width: 28%;
+            float: right;
+            /* border: 2px solid navy; */
+        }
+        #recent-papers ul {
+            list-style: none;
+        }
+        #recent-papers ul a {
+            text-decoration: none;
+            color: #150485;
+        }
+        #recent-papers ul li {
+            margin-bottom: 20px;
+        }
+        #recent-papers ul a:visited {
+            color: steelblue;
+        }
+        .point {
+            background-color: wheat;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        .point img {
+            width: 50px;
+            height: 50px;
+            float: left;
+            border: 2px solid greenyellow;
+            margin-top: 5px;
+            margin-right: 5px;
+        }
+        .point p {
+            margin: 0;
+            margin-left: 60px;
+        }
+        .point a {
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+            text-decoration: none;
+        }
+        .point button {
+            padding: 10px;
+            border-radius: 20px;
+            background-color: #17a2b8;
+            color: white;
+            border: none;
+        }
+        .point button:hover {
+            cursor: pointer;
+        }
+
+        @media (max-width: 1030px) {
+            #for-body {
+                height: 900px;
+            }
+        }
+
+        @media (max-width: 960px) {
+            #for-body {
+                height: 950px;
+            }
+        }
+
+        @media (max-width: 852px) {
+            #popular-papers {
+                width: 100%;
+            }
+            #recent-papers {
+                display: none;
+            }
+        }
+
+        @media (max-width: 565px) {
+            #for-body {
+                height: 1100px;
+            }
+        }
+
+        @media (max-width: 495px) {
+            #for-body {
+                height: 1200px;
+            }
+        }
+
+        @media (max-width: 435px) {
+            #for-body {
+                height: 1200px;
+            }
+        }
+
+        @media (max-width: 416px) {
+            #for-body {
+                height: 1300px;
+            }
+        }
+
+        @media (max-width: 345px) {
+            #for-body {
+                height: 1500px;
+            }
+        }
+
+        @media (max-width: 305px) {
+            #for-body {
+                height: 1700px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="position: relative;">
+        <div id="header"></div>
+
+        <div id="for-body">
+            <h1>BLOG</h1>
+
+            <div id="popular-papers">
+                <div class="point">
+                    <img src="images/logo1.jpg">
+                    <h4>Importance of ayurvedic medicine in modern lifestyle: A keynote review study</h4>
+                    <p>Ayurveda has the distinction of being the "the oldest medical system know to man and the oldest and most comprehensive spiritual teaching in the world"</p>
+                    <a href="https://www.researchgate.net/publication/324783389_Importance_of_ayurvedic_medicine_in_modern_lifestyle_A_keynote_review_study" target="_blank"><button>Read Full Paper</button></a>
+                </div>
+
+                <div class="point">
+                    <img src="images/logo1.jpg">
+                    <h4>Ayurveda in Dentistry: A Review</h4>
+                    <p>Primitive medicine is timeless. Globally, in most of the countries part the traces of primitive medicine still persist.</p>
+                    <a href="https://www.researchgate.net/publication/282872318_Ayurveda_in_Dentistry_A_Review" target="_blank"><button>Read Full Paper</button></a>
+                </div>
+
+                <div class="point">
+                    <img src="images/logo1.jpg">
+                    <h4>Ayurveda: The Conventional Indian Medicine System and its Global practice</h4>
+                    <p>According  to modern Ayurvedic  sources,  the origins  of  Ayurveda  have  been  traced  to around 6,000 BCE</p>
+                    <a href="https://www.researchgate.net/publication/332536569_Ayurveda_The_Conventional_Indian_Medicine_System_and_its_Global_practice" target="_blank"><button>Read Full Paper</button></a>
+                </div>
+
+                <div class="point">
+                    <img src="images/logo1.jpg">
+                    <h4>SKIN CARE IN AYURVEDA: A LITERARY REVIEW </h4>
+                    <p>Now days, cosmetics are considered to be one of the essential commodities  of  life.  It  is  the  fulcrum  of  First  moving consumer’s  good  (FMCG)  sector</p>
+                    <a href="https://www.researchgate.net/publication/272771761_SKIN_CARE_IN_AYURVEDA_A_LITERARY_REVIEW" target="_blank"><button>Read Full Paper</button></a>
+                </div>
+            </div>
+
+            <div id="recent-papers">
+                <h4 style="display: flex; justify-content: center;">Recent Research</h4>
+
+                <ul>
+                    <li><a href="https://www.sciencedirect.com/science/article/pii/S0975947620301315" target="_blank">Pathophysiology of COVID-19 and Host centric approaches of Ayurveda</a></li>
+                    <li><a href="https://www.sciencedirect.com/science/article/pii/S0975947620301078" target="_blank">Network pharmacology of AYUSH recommended immune-boosting medicinal plants against COVID-19</a></li>
+                    <li><a href="https://www.sciencedirect.com/science/article/pii/S097594762030098X" target="_blank">A prospective clinical study of an Ayurveda regimen in COVID 19 patients</a></li>
+                    <li><a href="https://www.sciencedirect.com/science/article/pii/S0975947620300899" target="_blank">Post-COVID-19 rethinking for a synergic vision of health-care</a></li>
+                    <li><a href="https://www.sciencedirect.com/science/article/pii/S0975947620300887" target="_blank">Transiting from pathy-based to people-centered holistic healthcare</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+    <script>
+        $.get("header.html", function (data) {
+            $("#header").replaceWith(data);
+        });
+        $.get("footer.html", function (data) {
+            $("#footer").replaceWith(data);
+        });
+    </script>
+</body>
+
+</html>
