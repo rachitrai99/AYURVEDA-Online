@@ -7,12 +7,6 @@ This project is aimed at developing an online static website for a Ayurvedic fac
 
 We have created a cart system to allow user to order ayurvedic medicines.
 
-<h2>TEAM MEMBERS : </h2>
-RACHIT RAI (181500524)
-KSHITIJ GUPTA (181500336) 
-RISHABH TIWARI (181500566)
-MADHAV GARG (181500356)
-
 <h2> PROJECT STATUS : </h2>
   
 15 August,2020 - Title Submission to the mentor
@@ -38,6 +32,6 @@ MADHAV GARG (181500356)
 7 December ,2020 - Project successfully submitted on google classroom as per the supervisor's instructions
 
 <h2>LIVE LINK-: </h2>
-https://rishabh7777.github.io/Ayurveda-Online/
+
 
 
