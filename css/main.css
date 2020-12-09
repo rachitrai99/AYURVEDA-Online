@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Acme);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+
+    
+}
+.container1{
+    border: 0px solid;
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.casCont{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+
+/* medicine start */
+.pa-medicine-box {
+    text-align: center;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding: 30px;
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
+}
+.pa-medicine-box h2 {
+    font-size: 22px;
+    color: #6caaa8;
+    margin: 20px 0 10px;
+    text-transform: capitalize;
+}
+.pa-medicine-box p {
+    margin:0px;
+    padding-top: 10px;
+}
+.pa-medicine-box:hover{
+    border-color:#6caaa8;
+}
+/* medicine end */
+
+/* TOP PRODUCTS */
+
+/* TOP PRODUCTS END */
+.whyImage .uno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whyImage .uno img{
+    width: 90%;
+    border: 1px dashed #17b895;
+    /* height: 70vh; */
+}
+.whyImage .thress{
+  display: none;
+}
+
+@media (max-width:1099px) and (min-width: 300px ){
+    .whyImage .thress{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .whyImage .thress img{  
+        display: block;
+        width: 90%;
+        border: 1px dashed #17b895;
+    }
+
+    .whyImage .uno{
+        display: none;
+      }
+}
